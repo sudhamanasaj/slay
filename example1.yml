@@ -1,0 +1,10 @@
+-
+  name: PB example
+  hosts: all
+  become: yes
+  tasks: 
+  - name: code to install apavhe web server
+    yum:
+      name: httpd
+      state: present 
+
